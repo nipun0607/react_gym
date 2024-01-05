@@ -1,0 +1,24 @@
+.list_header_section>input{
+    margin-bottom: 2rem;
+    width:60%;
+    height:30px;
+}
+.list-content{
+    display:grid;
+    width:100%;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.load_btn{
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.load_btn:hover{
+    transition: ease-in-out;
+    background-color: lightgreen;
+    border: none;
+}
